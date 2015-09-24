@@ -16,3 +16,7 @@ var inject_into_sublime_keymap = [
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
 ];
+
+function forLater () {
+    blabla = true;
+}

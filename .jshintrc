@@ -1,0 +1,22 @@
+{
+	"devel" 		: true,
+	"node"			: true,
+	"curly" 		: true,
+	"strict" 		: false,
+	"funcscope" 	: true,
+	"globals" 		: true,
+	"iterator" 		: true,
+	"latedef" 		: true,
+	"noarg" 		: true,
+	"nonew" 		: true,
+	"notypeof" 		: true,
+	"shadow" 		: true,
+	"singleGroups" 	: true,
+	"undef" 		: true,
+	"unused" 		: true,
+	"singleGroups" 	: false,
+	"quotmark" 		: false,
+	"loopfunc" 		: true,
+	"supernew" 		: true,
+	"maxerr" 		: "100"
+}

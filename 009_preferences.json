@@ -1,0 +1,63 @@
+{
+	/****************
+	
+		CORRECT OPINIONS TO HAVE: YOUR PREFERENCES FILE
+
+	****************/
+	"bold_folder_labels": true, // Bold your sidebar folder labels for clarity
+
+	// Embiggen your caret
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"wide_caret": true,
+
+	"highlight_line": true, // highlight your current line
+
+	"highlight_modified_tabs": true, // Your changed tabs will be highlighted
+
+	// space out your lines
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+
+	// Highlight the matching bracket you select
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+
+	// keep your code front and center at all times
+	"scroll_past_end": true,
+
+	"fade_fold_buttons": false, // arrows are always in the gutter, so you remember you can hide blocks of code!
+
+	"open_files_in_new_window": false, //tabs please!
+
+	// minimap hacks
+	"always_show_minimap_viewport": true, 
+	"draw_minimap_border" : true,
+
+	"draw_white_space" : "all", // "all" : shows all whitespace, all the time. "none" : never show whitespace lines for tabs. "Selection" : default
+
+	"find_selected_text" : false, // If true, the selected text will be copied into the find panel when it’s shown.
+
+	"hot_exit": false, // if true, you can quit out and unsaved modifications & open files will reopen on next launch
+
+	// Spell real good
+	"spell_check": true,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"added_words":["smartphones"],
+
+	// FONTS
+	"font_face" : "Hack", // http://sourcefoundry.org/hack/
+	"font_face" : "Inconsolata", // http://www.levien.com/type/myfonts/inconsolata.html
+	"font_face" : "InputMono Thin", // http://input.fontbureau.com/preview/
+	"font_face" : "Anonymous Pro", // http://www.marksimonson.com/fonts/view/anonymous-pro
+	"font_face" : "Droid sans mono", // https://www.google.com/fonts/specimen/Roboto
+
+	// ignore generated or lib directories
+	"folder_exclude_patterns": [ ".svn", ".git", ".hg", "CVS", "node_modules", ".tmp", ".public", "vendor", ".bundle", "embed" ],
+
+	// ignore files we can't really act on
+	"file_exclude_patterns": [ "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace" ],
+}
